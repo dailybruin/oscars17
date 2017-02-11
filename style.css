@@ -1,0 +1,128 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.element {
+  display: inline-block;
+}
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+#menuname {
+  font-family: "Cormorant Garamond", "serif";
+}
+
+#maintitle {
+  font-family: "Cormorant Garamond", "serif";
+}
+
+h1 {
+font-family:"Julius Sans One", "Raleway", "sans-serif";
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+h2 {
+font-family:"Julius Sans One", "Raleway", "sans-serif";
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h3 {
+font-family:"Julius Sans One", "sans-serif";
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+
+#slide1, #slide2, #slide3{
+  width: 100%;
+}
+#slide1{
+height: 800px;
+margin: 0;
+padding: 200px 0 260px 0;
+background-size: cover;
+}
+#slide2{
+background-color: #000000;
+height: 400px;
+margin: 0 auto;
+overflow: hidden;
+padding: 200px 0 500px 0;
+position: relative;
+}
+#slide3{
+background-color: #d3d3d3;
+height: 800px;
+padding: 100px;
+background-size: cover;
+}
+#navbarfont {
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.content{
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+  margin: 0 auto;
+  width: 1024px;
+  text-align: center;
+}
+.clear { clear: both; }
+#header {
+    width: 100%;
+    background: url('https://www.wallsandfloors.co.uk/admin/uploads/super%20black%20rectangle%20small.jpg');
+    height: 80px;
+    position: fixed;
+    text-align: center;
+  	background-color: black;
+  	color: white;
+};
+
+#footer{
+	text-align: center;
+}
+
+#titlepage a {
+  text-shadow: 2px 2px #6f6f6f;
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+  font-weight: bold; }
