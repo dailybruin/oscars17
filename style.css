@@ -160,7 +160,7 @@ background-size: cover;
   font-size: 30px;
   margin-top: 20px;
   font-family:"Julius Sans One", "Raleway", "sans-serif";
-  font-weight: bold; }*/*/
+  font-weight: bold; }*/
 
 body{
 margin: 0;
@@ -265,6 +265,10 @@ position: relative;
 background-size: cover;
 }
 
+#slide2{
+   transition: background 1s ease;
+}
+
 #navbarfont {
   font-family:"Julius Sans One", "Raleway", "sans-serif";
 }
@@ -334,7 +338,7 @@ select:hover{
 }
 
 #imagefilm{
-  transition: background 1s ease;
+ 
   background-position: center;
 
   height: 100%;
