@@ -1,3 +1,7 @@
+/*html{
+  overflow-y: scroll;
+}
+
 body{
 margin: 0;
 padding: 0;
@@ -88,6 +92,202 @@ background-size: cover;
   	color: white;
 };
 
+.grid-sizer { width: 33.33%; }
+.item { width: 33.33%; }
+
+@media screen and (max-width: 1920px) {
+  .grid-sizer { width: 33.33%; }
+  .item { width: 33.33%; }
+}
+
+@media screen and (max-width: 720px) {
+  .grid-sizer { width: 50%; }
+  .item { width: 50%; }
+}
+
+@media screen and (max-width: 480px) {
+  .grid-sizer { width: 100%; }
+  .item { width: 100%; }
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+
+.overlay .title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.overlay .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.80);
+    width: 100%;
+    margin: 0;
+}
+
+.overlay .description p {
+    margin: 20px;
+}
+
+.item{
+  height: 33.33vh;
+  width: 33.33vw;
+}
+.item:hover .overlay {
+    display: block;
+}
+#footer{
+	text-align: center;
+}
+
+#titlepage a {
+  text-shadow: 2px 2px #6f6f6f;
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+  font-weight: bold; }*/
+
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+#menuname {
+  font-family: "Cormorant Garamond", "serif";
+}
+
+#maintitle {
+  font-family: "Cormorant Garamond", "serif";
+}
+
+h1 {
+font-family:"Julius Sans One", "Raleway", "sans-serif";
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+h2 {
+font-family:"Julius Sans One", "Raleway", "sans-serif";
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+h3 {
+font-family:"Julius Sans One", "sans-serif";
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+
+#slide1, #slide2, #slide3{
+  width: 100%;
+}
+
+/*for slide 1*/
+
+#slide1{
+ /* padding-top: 50px;*/
+  height: 100%;
+
+background-size: cover;
+}
+
+.gray{
+  background-color:#ccc
+ 
+}
+.gray-l{
+  background-color:#ececec
+  
+}
+
+.block {
+  height:33.3vh;
+  display:inline-block;
+}
+.block:hover > .overlay{
+  position:absolute;
+  top: 0;
+  width:100%;
+  height:100%;
+  left: 0;
+  background-color:#000;
+  opacity:0.5;
+  z-index: 100;
+  display: block;
+}
+
+.info {
+  display:none;
+  position:absolute;
+  text-align: center;
+  color:white;
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9{
+    background-image: url(hedgehog.jpeg);
+    display:block;
+  }
+
+#slide2, #slide3{
+background-color: #000000;
+color: #fff;
+height: 100vh;
+padding: 100px;
+position: relative;
+background-size: cover;
+}
+
+#navbarfont {
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.content{
+  font-family:"Julius Sans One", "Raleway", "sans-serif";
+  margin: 0 auto;
+  width: 1024px;
+  text-align: center;
+}
+.clear { clear: both; }
+#header {
+    width: 100%;
+    background: url('https://www.wallsandfloors.co.uk/admin/uploads/super%20black%20rectangle%20small.jpg');
+    height: 80px;
+    position: fixed;
+    text-align: center;
+  	background-color: black;
+  	color: white;
+};
+
 #footer{
 	text-align: center;
 }
@@ -101,3 +301,6 @@ background-size: cover;
   margin-top: 20px;
   font-family:"Julius Sans One", "Raleway", "sans-serif";
   font-weight: bold; }
+
+  
+
