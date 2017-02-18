@@ -74,16 +74,21 @@ h3 {
   width: 100%;
   height: 100%;
   left: 0;
-  background-color: #000;
-  opacity: 0.5;
+  /*background-color: #000;
+  opacity: 0.5;*/
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
   z-index: 100;
   display: block;
 }
+
 
 .info {
   display: none;
   position: absolute;
   text-align: center;
+  padding-top: 50px;
   color: #fff;
   font-family: "Futura", "Didact Gothic";
 }
@@ -110,7 +115,7 @@ h3 {
   background-size: cover !important;
 }
 #pic3 {
-  background-image: url("images/moana1.jpg");
+  background-image: url("images/costume.jpg");
   background-size: cover !important;
 }
 #pic4 {
@@ -126,7 +131,7 @@ h3 {
   background-size: cover !important;
 }
 #pic7 {
-  background-image: url("images/zootopia2.jpg");
+  background-image: url("images/lala2.jpg");
   background-size: cover !important;
 }
 #pic8 {
@@ -203,7 +208,9 @@ select:hover {
   color: #ffd072 !important;
 }
 
-#imagefilm {
+
+#imagefilm{
+ 
   background-position: center;
   height: 100vh;
   width: 70%;
