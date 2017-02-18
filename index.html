@@ -4,13 +4,12 @@
 <head>
   <meta content="text/html; charset=utf-8" />
   <title>Oscars</title>
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Raleway|Cormorant+Garamond|Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Raleway|Cormorant+Garamond|Fjalla+One|Didact+Gothic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="hover.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
@@ -20,69 +19,69 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+
+    <!--<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand active" id="menuname" href="#slide1">Oscars</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav" id="navbarfont">
-            <li><a href="#slide2">Staff Predictions</a></li>
-            <li><a href="#slide3">Extra Oscar Stuff</a></li>
+            <li><a href="#spacing">Staff Predictions</a></li>
           </ul>
         </div>
       </div>
-    </nav>
+    </nav>-->
+    
   </header>
   <!-- Slide 1 -->
   <div class='container-fluid' id='slide1'>
     <div class='row'>
-      <div class='block col-xs-12 col-md-4' id='pic1'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic1'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic2'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic2'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic3'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic3'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic4'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic4'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic5'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic5'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic6'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic6'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic7'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic7'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic8'>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic8'>
+        <a href="#slide2" class="overlay info">
+          <p>Movie1</p>
+        </a>
+      </div>
+      <div class='block hvr-shrink col-xs-12 col-md-4' id='pic9'>
         <a href="#" class="overlay info">
           <p>Movie1</p>
         </a>
       </div>
-      <div class='block col-xs-12 col-md-4' id='pic9'>
-        <a href="#" class="overlay info">
-          <p>Movie1</p>
-        </a>
-      </div>
-
     </div>
   </div>
   <!-- Slide 2 -->
@@ -108,12 +107,6 @@
     </div>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="viz.js"></script>
-    <!-- Slide 3 -->
-    <div id="slide3" class="content" class="center">
-      <h2>Extra Oscars Stuff</h2>
-      <div id="footer">
-      </div>
-    </div>
+  </div>
 </body>
-
 </html>
