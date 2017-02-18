@@ -1,4 +1,4 @@
-/*html{
+/*/*html{
   overflow-y: scroll;
 }
 
@@ -44,23 +44,24 @@ margin: 5px 0;
 padding: 0;
 z-index: 1;
 position: relative;
-}
+}*/
 
 #slide1, #slide2, #slide3{
   width: 100%;
 }
-#slide1{
+/*#slide1{
 height: 100vh;
 padding: 100px;
 background-size: cover;
 }
 #slide2{
-background-color: #000000;
+  transition: background 1s ease;
 color: #fff;
 height: 100vh;
 padding: 100px;
 position: relative;
 background-size: cover;
+ background-image: url("predictionsimages/lalaland.jpg");
 }
 #slide3{
 background-color: #d3d3d3;
@@ -159,7 +160,7 @@ background-size: cover;
   font-size: 30px;
   margin-top: 20px;
   font-family:"Julius Sans One", "Raleway", "sans-serif";
-  font-weight: bold; }*/
+  font-weight: bold; }*/*/
 
 body{
 margin: 0;
@@ -220,11 +221,11 @@ background-size: cover;
 
 .gray{
   background-color:#ccc
- 
+
 }
 .gray-l{
   background-color:#ececec
-  
+
 }
 
 .block {
@@ -302,5 +303,55 @@ background-size: cover;
   font-family:"Julius Sans One", "Raleway", "sans-serif";
   font-weight: bold; }
 
-  
+select{
+  color:#f4b942 !important;
+  transition: all 0.4s ease;
+  border-bottom: 2px solid #f4b942;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: none !important;
+  box-shadow: none;
+  padding: 3px;
+  width: 90%;
+  height: 80px;
+  border-radius: 0px !important;
+  font-size: 50px !important;
+  font-family: 'Fjalla One', sans-serif !important;
+  text-align: center;
+}
 
+#winnername{
+  color:white !important;
+  font-size: 50px !important;
+  font-family: 'Fjalla One', sans-serif !important;
+}
+
+select:hover{
+   border-bottom: 2px solid #ffd072;
+   color: #ffd072 !important;
+
+}
+
+#imagefilm{
+  transition: background 1s ease;
+  background-position: center;
+
+  height: 100%;
+  width: 70%;
+
+  background-size:cover;
+  display: inline-block;
+}
+
+#graph{
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+
+select{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+}
