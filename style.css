@@ -105,40 +105,40 @@ h3 {
 }
 
 #pic1 {
-  background-image: url("images/moana2.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/moana2.jpg");
   background-size: cover !important;
 }
 
 #pic2 {
-    background-image: url("images/elle.jpg");
+    background-image: url("http://dailybruin.com/images/2017/02/elle.jpg");
   background-size: cover !important;
 }
 #pic3 {
-  background-image: url("images/costume.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/costume.jpg");
   background-size: cover !important;
 }
 #pic4 {
-  background-image: url("images/ridge.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/ridge.jpg");
   background-size: cover !important;
 }
 #pic5 {
-  background-image: url("images/lala1.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/lala1.jpg");
   background-size: cover !important;
 }
 #pic6 {
-  background-image: url("images/zootopia1.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/zootopia1.jpg");
   background-size: cover !important;
 }
 #pic7 {
-  background-image: url("images/lala2.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/lala2.jpg");
   background-size: cover !important;
 }
 #pic8 {
-  background-image: url("images/oscar.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/oscar.jpg");
   background-size: cover !important;
 }
 #pic9 {
-  background-image: url("images/femme.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/femme.jpg");
   background-size: cover !important;
 }
 
@@ -194,7 +194,12 @@ select:hover {
 
 #graph {
   padding-top: 200px;
-  transition: .3s all ease-in
+  height: 400px;
+  width: 400px;
+  transition: 1s background ease;
+}
+#spacing {
+  padding-top: 100;
 }
 #imagefilm{
  
@@ -219,7 +224,7 @@ select:hover {
 select {
  -webkit-appearance: none;
   -moz-appearance: none;
-  background: url(images/tri.png) no-repeat right;
+  background: url("http://dailybruin.com/images/2017/02/tri.png") no-repeat right;
   background-size: 30px 30px;
   /*background: none;*/
   outline: none;
