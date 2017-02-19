@@ -59,7 +59,6 @@ h3 {
   /*position: relative;*/
   background-size: cover;
   transition: background 1s ease;
-  padding-top: 50px;
 }
 
 .block {
@@ -144,12 +143,6 @@ h3 {
 }
 
 
-
-
-/*#navbarfont {
-  font-family: "Julius Sans One", "Raleway", "sans-serif";
-}*/
-
 .center {
   margin: 0 auto;
   text-align: center;
@@ -166,16 +159,6 @@ h3 {
 
 .clear {
   clear: both;
-}
-
-#header {
-  width: 100%;
-  background: url('https://www.wallsandfloors.co.uk/admin/uploads/super%20black%20rectangle%20small.jpg');
-  height: 80px;
-  position: fixed;
-  text-align: center;
-  background-color: black;
-  color: white;
 }
 
 
@@ -201,6 +184,7 @@ select {
   color: white !important;
   font-size: 50px !important;
   font-family: 'Fjalla One', sans-serif !important;
+  padding-top: 525px;
 }
 
 select:hover {
@@ -208,7 +192,10 @@ select:hover {
   color: #ffd072 !important;
 }
 
-
+#graph {
+  padding-top: 200px;
+  transition: .3s all ease-in
+}
 #imagefilm{
  
   background-position: center;
@@ -222,7 +209,7 @@ select:hover {
   height: 100vh;
 }
 
-#graph {
+#predict {
   height: 100%;
   width: 30%;
   float: left;
@@ -232,4 +219,21 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   background: none;
+  outline: none;
+}
+
+svg {
+  height: 100px;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+circle {
+  stroke: green;
+  fill: none;
+  stroke-dasharray: 314; /* equal to circumference of circle 2 * 3.14 * 50 */
+  stroke-dashoffset: 0; /* initial setting */
+  transition: all 2s;
+}
+svg:hover circle{
+  stroke-dashoffset: 314;
 }

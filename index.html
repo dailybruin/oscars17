@@ -4,19 +4,21 @@
 <head>
   <meta content="text/html; charset=utf-8" />
   <title>Oscars</title>
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Raleway|Cormorant+Garamond|Fjalla+One|Didact+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Raleway|Cormorant+Garamond|Fjalla+One|Didact+Gothic"
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="hover.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link rel="icon" href="https://pbs.twimg.com/profile_images/646071633069760513/SxqrJYXM.png">
+  <link rel="stylesheet" href="niceselect/css/nice-select.css">
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
-  
+
 </head>
 
 <body>
@@ -34,14 +36,14 @@
         </div>
       </div>
     </nav>-->
-    
+
   </header>
   <!-- Slide 1 -->
   <div class='container-fluid' id='slide1'>
     <div class='row'>
       <div class='block hvr-shrink col-xs-12 col-md-4' id='pic1'>
         <a href="#" class="overlay info">
-          <h1>Alexey Stomahkin, Ph.D. 2013</h1>
+          <h1>Alexey Stomahkin</h1>
           <h2><em>Moana</em></h2>
         </a>
       </div>
@@ -59,7 +61,7 @@
       </div>
       <div class='block hvr-shrink col-xs-12 col-md-4' id='pic4'>
         <a href="#" class="overlay info">
-          <h1>Barry Robinson</h1>
+          <h1>Barry Robison</h1>
           <h2><em>Hacksaw Ridge</em></h2>
         </a>
       </div>
@@ -96,15 +98,13 @@
   </div>
   <!-- Slide 2 -->
   <div id="slide2" class="content" class="center">
-    <script src="niceselect/js/jquery.js"></script>
-    <!--<script src="niceselect/js/jquery.nice-select.js"></script>-->
     <script src="predictions.js"></script>
     <div class="row">
-      <div id="graph">
+      <div id="predict">
         <h6 id="predictions-title"> Daily Bruin staff predictions</h6>
         <select id="predictselect">
-              <option value="0">BEST PICTURE</option>
-              <option value="1">LEADING ACTRESS</option>
+              <option value="0">Best Picture</option>
+              <option value="1">Leading Actress</option>
               <option value="2">Leading Actor</option>
               <option value="3">Supporting Actress</option>
               <option value="4">Supporting Actor</option>
@@ -112,15 +112,18 @@
               <option value="6">Best Director</option>
               <option value="7">Best Song</option>
             </select>
+        <div id="graph">
+
+        </div>
       </div>
       <div id="imagefilm">
         <p id="winnername">
           La La Land
         </p>
       </div>
+      <script src="viz.js"></script>
     </div>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="viz.js"></script>
   </div>
 </body>
+
 </html>
