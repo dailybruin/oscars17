@@ -10,7 +10,7 @@ $(document).ready(function(){
          //$("#graph").fadeout(400).graphs('url('+graphs[value]+').fadein(400);
          $("#winnername").fadeOut(400).text(text[value]).fadeIn(400);
         //  if(value == 2) {
-        //      document.getElementById("#winnername").style.color = '#000';
+        //      $("#winnername").css("color", "#000 !important");
         //  }
 }).change();
 })
