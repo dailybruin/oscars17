@@ -164,22 +164,19 @@ select:hover {
 }
 
 #graph {
-  padding-top: 200px;
-  margin-left: 20px;
+  padding-right: 50px;
+  clear: right;
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 65%;
+  width: 100%;
   background-size: cover;
   transition: 1s background ease;
-}
-#spacing {
-  padding-top: 100;
 }
 #imagefilm{
   position: relative;
   background-position: center;
-  height: 100vh;
-  width: 65%;
+  height: 100%;
+  width: 60%;
   background-size: cover !important;
   display: inline-block;
   /*float: right;*/
@@ -193,10 +190,10 @@ select:hover {
 
 #predict {
   height: 100%;
-  width: 35%;
+  width: 40%;
   float: left;
   position: relative;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-top: 10px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Fjalla One', sans-serif !important;
