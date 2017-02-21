@@ -90,7 +90,7 @@ body {
   background-size: cover !important;
 }
 #pic5 {
-  background-image: url("http://dailybruin.com/images/2017/02/lala1.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/oscar.jpg");
   background-size: cover !important;
 }
 #pic6 {
@@ -102,7 +102,7 @@ body {
   background-size: cover !important;
 }
 #pic8 {
-  background-image: url("http://dailybruin.com/images/2017/02/oscar.jpg");
+  background-image: url("http://dailybruin.com/images/2017/02/lala1.jpg");
   background-size: cover !important;
 }
 #pic9 {
@@ -149,7 +149,7 @@ select {
 }
 
 #winnername {
-  color: white !important;
+  color: #f4b942 !important;
   font-size: 50px !important;
   font-family: 'Fjalla One', sans-serif !important;
   text-shadow: 2px 2px 4px #000000;
@@ -183,7 +183,7 @@ select:hover {
 
 .row {
   height: 100vh;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.4);
 
 }
 
@@ -194,10 +194,14 @@ select:hover {
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
   text-shadow: 2px 2px 4px #000000;
-  font-family: 'Fjalla One', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   background-color:rgba(0, 0, 0, 0.5);
+  line-height: 60px;
+}
+
+#predictions-title {
+  line-height: 27px;
 }
 
 #imagecreds {
@@ -218,4 +222,18 @@ select {
   background-position-y: 25px;
   background-size: 30px 30px;
   outline: none;
+}
+
+#daniel {
+  font-family: 'Playfair Display', serif !important;
+  padding: 0px 100px 0px 100px;
+  text-shadow: 4px 4px 8px #000000;
+  line-height: 70px;
+  font-style: italic;
+}
+
+#credit {
+  font-family: 'Playfair Display', serif !important;
+  text-shadow: 2px 2px 6px #000000;
+
 }
