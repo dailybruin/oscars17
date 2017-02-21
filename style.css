@@ -50,7 +50,6 @@ body {
   display: block;
 }
 
-
 .info {
   display: none;
   position: absolute;
@@ -78,38 +77,44 @@ body {
 }
 
 #pic2 {
-    background-image: url("https://dailybruin.com/images/2017/02/elle.jpg");
+  background-image: url("https://dailybruin.com/images/2017/02/elle.jpg");
   background-size: cover !important;
 }
+
 #pic3 {
   background-image: url("https://dailybruin.com/images/2017/02/costume.jpg");
   background-size: cover !important;
 }
+
 #pic4 {
   background-image: url("https://dailybruin.com/images/2017/02/ridge.jpg");
   background-size: cover !important;
 }
+
 #pic5 {
   background-image: url("https://dailybruin.com/images/2017/02/oscar1.jpg");
   background-size: cover !important;
 }
+
 #pic6 {
   background-image: url("https://dailybruin.com/images/2017/02/zootopia1.jpg");
   background-size: cover !important;
 }
+
 #pic7 {
   background-image: url("https://dailybruin.com/images/2017/02/lala2.jpg");
   background-size: cover !important;
 }
+
 #pic8 {
   background-image: url("https://dailybruin.com/images/2017/02/lala1.jpg");
   background-size: cover !important;
 }
+
 #pic9 {
   background-image: url("https://dailybruin.com/images/2017/02/femme.jpg");
   background-size: cover !important;
 }
-
 
 .center {
   margin: 0 auto;
@@ -129,7 +134,6 @@ body {
   clear: both;
 }
 
-
 select {
   color: #f4b942 !important;
   transition: all 0.4s ease;
@@ -137,7 +141,7 @@ select {
   border-top: none;
   border-left: none;
   border-right: none;
-  background-color:none !important;
+  background-color: none !important;
   box-shadow: none;
   padding-left: 10px;
   width: 100%;
@@ -171,7 +175,8 @@ select:hover {
   background-position: center;
   transition: 1s background ease;
 }
-#imagefilm{
+
+#imagefilm {
   position: relative;
   background-position: center;
   height: 100%;
@@ -183,8 +188,7 @@ select:hover {
 
 .row {
   height: 100vh;
-  background-color:rgba(0, 0, 0, 0.4);
-
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #predict {
@@ -196,7 +200,7 @@ select:hover {
   padding-right: 20px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Playfair Display', sans-serif !important;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   line-height: 60px;
 }
 
@@ -206,8 +210,8 @@ select:hover {
 
 #imagecreds {
   position: absolute;
-  bottom:0px;
-  right:30px;
+  bottom: 0px;
+  right: 30px;
   border: none !important;
   font-size: 2 !important;
   float: right !important;
@@ -215,7 +219,7 @@ select:hover {
 }
 
 select {
- -webkit-appearance: none;
+  -webkit-appearance: none;
   -moz-appearance: none;
   background: url("http://dailybruin.com/images/2017/02/tri.png") no-repeat;
   background-position-x: 410px;
@@ -235,5 +239,11 @@ select {
 #credit {
   font-family: 'Playfair Display', serif !important;
   text-shadow: 2px 2px 6px #000000;
+}
 
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Raleway", serif;
 }
