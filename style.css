@@ -102,12 +102,14 @@ body {
 }
 
 #pic7 {
-  background-image: url("https://dailybruin.com/images/2017/02/lala2.jpg");
+  /*background-image: url("https://dailybruin.com/images/2017/02/lala2.jpg");*/
+  background-image: url("http://dailybruin.com/images/2017/02/a69aa505-1ec6-4f22-bc8e-66a639985db3.jpg");
   background-size: cover !important;
 }
 
 #pic8 {
-  background-image: url("https://dailybruin.com/images/2017/02/lala1.jpg");
+  /*background-image: url("https://dailybruin.com/images/2017/02/lala1.jpg");*/
+  background-image: url("http://dailybruin.com/images/2017/02/web.ae_.lalalandgym.OE_-640x426.jpg");
   background-size: cover !important;
 }
 
