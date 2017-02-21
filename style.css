@@ -164,14 +164,12 @@ select:hover {
 }
 
 #graph {
-  padding-right: 50px;
-  clear: right;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  max-height: 500px;
-  max-width: 500px;
-  background-size: cover;
+  min-height: 50%;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  background-size: cover !important;
   transition: 1s background ease;
 }
 #imagefilm{
@@ -196,6 +194,7 @@ select:hover {
   float: left;
   position: relative;
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 10px;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Fjalla One', sans-serif !important;
