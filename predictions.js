@@ -2,7 +2,7 @@ $(document).ready(function(){
     var pictures = ['predictionsimages/lala1.jpg', 'predictionsimages/emma.jpg', 'predictionsimages/denzel.jpg', 'predictionsimages/viola.jpg', 'predictionsimages/ali.jpg','predictionsimages/zoo.jpg','predictionsimages/damien.jpg', 'predictionsimages/lala2.jpg']
     var text = ['LA LA LAND', 'EMMA STONE', 'DENZEL WASHINGTON', 'VIOLA DAVIS', 'MAHERSHALA ALI', 'ZOOTOPIA', 'DAMIEN CHAZELLE', 'CITY OF STARS']
     var creds = ['Photo Credit – Blair Raughley/Invision for Lionsgate/AP Images', 'Photo Credit – Dale Robinette', 'Photo Credit – Dale Robinette', 'Photo Credit – Dale Robinette', 'Photo Credit — David Bornfriend/A24', 'Photo Credit – Paramount Pictures', 'Photo Credit – Paramount Pictures', 'Photo Credit - Walt Disney Pictures']
-    var graphs = ['charts/chart1.png', 'charts/chart2.png']
+    var graphs = ['charts/chart1.png', 'charts/chart2.png', 'charts/chart3.png', 'charts/chart4.png', 'charts/chart5.png', 'charts/chart6.png', 'charts/chart7.png', 'charts/chart8.png']
     var textval;
     $("select").change(function(){
         value = $(this).val();

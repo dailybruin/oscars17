@@ -165,7 +165,8 @@ select:hover {
 
 #graph {
   padding-top: 200px;
-  background-position-x: 30px; 
+  margin-left: 20px;
+  position: absolute;
   height: 400px;
   width: 400px;
   background-size: cover;
@@ -194,6 +195,7 @@ select:hover {
   height: 100%;
   width: 35%;
   float: left;
+  position: relative;
   padding-left: 10px;
   padding-top: 10px;
   text-shadow: 2px 2px 4px #000000;
@@ -205,8 +207,6 @@ select:hover {
   position: absolute;
   bottom:0px;
   right:30px;
-  /*padding-right: 20px !important;
-  padding-top: 600px;*/
   border: none !important;
   font-size: 2 !important;
   float: right !important;
@@ -217,7 +217,7 @@ select {
  -webkit-appearance: none;
   -moz-appearance: none;
   background: url("http://dailybruin.com/images/2017/02/tri.png") no-repeat;
-  background-position-x: 420px;
+  background-position-x: 410px;
   background-position-y: 25px;
   background-size: 30px 30px;
   outline: none;
