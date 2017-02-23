@@ -265,6 +265,10 @@ footer {
     width:40%;
     height:50px;
     display: block;
+    background: url("http://dailybruin.com/images/2017/02/tri.png") no-repeat;
+    background-position-x: 90%;
+    background-position-y: 48%;
+    background-size: 5% 20%;
 }
 
 @media all and (max-width: 992px) {
