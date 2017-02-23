@@ -194,7 +194,6 @@ select:hover {
 }
 
 .row {
-  height: 100vh;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -274,6 +273,7 @@ footer {
   #imagecreds {display: none;}
   #creds {display: none;}
   #webcreds{display: none;}
+  .row {background-color: rgba(0, 0, 0, 0.4);}
 }
 
 @media all and (min-device-width: 0px) and (max-device-width: 480px) {
@@ -283,8 +283,15 @@ footer {
   #imagecreds {display: none;}
   #creds {display: none;}
   #webcreds{display: none;}
+  .row {background-color: rgba(0, 0, 0, 0.4);}
 }
 
 @media all and (min-width:992px) and (max-width:10000px) {
   #smallscreenselect {display: none;}
+  .row {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }
