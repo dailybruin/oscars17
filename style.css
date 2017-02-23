@@ -19,13 +19,14 @@ body {
   height: 100vh;
   background-size: cover;
   background-color: #000000;
+  /*position: relative;*/
 }
 
 #slide2 {
   background-color: #000000;
   color: #fff;
   height: 100vh;
-  /*position: relative;*/
+  /*position: absolute;*/
   background-size: cover;
   transition: background 1s ease;
 }
@@ -258,6 +259,7 @@ footer {
   text-align: center;
   font-family: "Raleway", serif;
   font-size: 1vw;
+  position: relative;
 }
 
 #smallscreenselect {
@@ -268,6 +270,9 @@ footer {
 }
 
 @media all and (max-width: 992px) {
+  html {background-color: black;}
+  #slide1 { position: relative; display: inline;}
+  #slide2 { position: absolute; display: inline;}
   #predict { display: none; }
   #daniel { line-height: 3vw; font-size:2.5vw;}
   #imagefilm {width: 100%; padding: none; display: block;}
@@ -283,8 +288,10 @@ footer {
   #imagecreds {display: none;}
   #creds {display: none;}
   #webcreds{display: none;}
+  
 }
 
 @media all and (min-width:992px) and (max-width:10000px) {
   #smallscreenselect {display: none;}
+  
 }
