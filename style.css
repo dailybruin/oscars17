@@ -249,7 +249,7 @@ select {
 #credit {
   font-family: 'Playfair Display', serif !important;
   text-shadow: 2px 2px 6px #000000;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 footer {
@@ -260,11 +260,22 @@ footer {
   font-size: 1vw;
 }
 
+#smallscreenselect {
+    margin: auto;
+    width:40%;
+    height:50px;
+    display: block;
+}
+
 @media all and (max-width: 640px) {
   #predict { display: none; }
   #daniel { line-height: 2vw;}
   #imagefilm {width: 100%; padding: none; display: block;}
   #imagecreds {display: none;}
   #creds {display: none;}
-  footer{display: none;}
+  #webcreds{display: none;}
+}
+
+@media all and (min-width:640px) and (max-width:10000px) {
+  #smallscreenselect {display: none;}
 }
