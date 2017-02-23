@@ -79,7 +79,8 @@ body {
 
 #pic2 {
   /*background-image: url("https://dailybruin.com/images/2017/02/elle.jpg");*/
-  background-image: url("https://dailybruin.com/images/2017/02/elle2.png");
+  /*background-image: url("https://dailybruin.com/images/2017/02/elle2.png");*/
+  background-image: url("http://dailybruin.com/images/2017/02/a69aa505-1ec6-4f22-bc8e-66a639985db3.jpg");
   background-size: cover !important;
 }
 
@@ -105,7 +106,8 @@ body {
 
 #pic7 {
   /*background-image: url("https://dailybruin.com/images/2017/02/lala2.jpg");*/
-  background-image: url("http://dailybruin.com/images/2017/02/a69aa505-1ec6-4f22-bc8e-66a639985db3.jpg");
+  /*background-image: url("http://dailybruin.com/images/2017/02/a69aa505-1ec6-4f22-bc8e-66a639985db3.jpg");*/
+  background-image: url("https://dailybruin.com/images/2017/02/elle2.png");
   background-size: cover !important;
 }
 
@@ -151,14 +153,15 @@ select {
   width: 100%;
   height: 80px;
   border-radius: 0px !important;
-  font-size: 43px !important;
+  font-size: 3vw !important;
   font-family: 'Fjalla One', sans-serif !important;
   text-shadow: 2px 2px 4px #000000;
 }
 
 #winnername {
   color: #f4b942 !important;
-  font-size: 50px !important;
+  /*font-size: 50px !important;*/
+  font-size: 5vw;
   font-family: 'Fjalla One', sans-serif !important;
   text-shadow: 2px 2px 4px #000000;
   padding-top: 20px;
@@ -205,11 +208,13 @@ select:hover {
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Playfair Display', sans-serif !important;
   background-color: rgba(0, 0, 0, 0.5);
-  line-height: 60px;
+  line-height: 5vw;
+  font-size: 5vw;
 }
 
 #predictions-title {
-  line-height: 27px;
+    line-height: 2vw;
+  font-size: 1.5vw;
 }
 
 #imagecreds {
@@ -217,7 +222,7 @@ select:hover {
   bottom: 0px;
   right: 30px;
   border: none !important;
-  font-size: 2 !important;
+  font-size: 1vw !important;
   float: right !important;
   color: white !important;
 }
@@ -236,13 +241,15 @@ select {
   font-family: 'Playfair Display', serif !important;
   padding: 0px 100px 0px 100px;
   text-shadow: 4px 4px 8px #000000;
-  line-height: 70px;
+  line-height: 6vw;
   font-style: italic;
+  font-size: 2vw;
 }
 
 #credit {
   font-family: 'Playfair Display', serif !important;
   text-shadow: 2px 2px 6px #000000;
+  font-size: 1vw;
 }
 
 footer {
@@ -250,4 +257,14 @@ footer {
   color: white;
   text-align: center;
   font-family: "Raleway", serif;
+  font-size: 1vw;
+}
+
+@media all and (max-width: 640px) {
+  #predict { display: none; }
+  #daniel { line-height: 2vw;}
+  #imagefilm {width: 100%; padding: none; display: block;}
+  #imagecreds {display: none;}
+  #creds {display: none;}
+  footer{display: none;}
 }
