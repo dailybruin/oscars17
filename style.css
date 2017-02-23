@@ -278,9 +278,8 @@ footer {
 
 @media all and (min-device-width: 0px) and (max-device-width: 480px) {
   #predict { display: none; }
-  #daniel { line-height: 5vw; font-size: 4vw;}
-  #daniel { line-height: 4vw; font-size: 3vw;}
-  #imagefilm {width: 100%; padding: none; display: block;}
+  #daniel {font-size: 32px;}
+  #imagefilm {width: 100%; padding: none; display: block; font-size:24px;}
   #imagecreds {display: none;}
   #creds {display: none;}
   #webcreds{display: none;}
