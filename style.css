@@ -267,7 +267,7 @@ footer {
     display: block;
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 992px) {
   #predict { display: none; }
   #daniel { line-height: 2vw;}
   #imagefilm {width: 100%; padding: none; display: block;}
@@ -276,6 +276,15 @@ footer {
   #webcreds{display: none;}
 }
 
-@media all and (min-width:640px) and (max-width:10000px) {
+@media all and (min-device-width: 0px) and (max-device-width: 480px) {
+  #predict { display: none; }
+  #daniel { line-height: 2vw;}
+  #imagefilm {width: 100%; padding: none; display: block;}
+  #imagecreds {display: none;}
+  #creds {display: none;}
+  #webcreds{display: none;}
+}
+
+@media all and (min-width:992px) and (max-width:10000px) {
   #smallscreenselect {display: none;}
 }
