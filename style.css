@@ -25,6 +25,7 @@ body {
   background-color: #000000;
   color: #fff;
   height: 100vh;
+  background: no-repeat center;
   /*position: relative;*/
   background-size: cover;
   transition: background 1s ease;
@@ -267,7 +268,7 @@ footer {
 }
 
 @media all and (max-width: 992px) {
-  #slide2 {background: no-repeat; background-size: 100% auto; }
+  /*#slide2 {background: no-repeat; background-size: 100% auto; }*/
   #predict { display: none; }
   #daniel { line-height: 3vw; font-size:2.5vw;}
   #imagefilm {width: 100%; padding: none; display: block;}
