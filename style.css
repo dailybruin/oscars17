@@ -74,7 +74,7 @@ body {
 }
 
 #pic1 {
-  background-image: url("https://dailybruin.com/images/2017/02/moana2.jpg");
+  background-image: url("https://dailybruin.com/images/2017/02/web.ae_.moana_.EP_.PicA_-640x426.jpg");
   background-size: cover !important;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 #pic3 {
-  background-image: url("https://dailybruin.com/images/2017/02/costume.jpg");
+  background-image: url("https://dailybruin.com/images/2017/02/2-24_oscar_costumes_sketch_notes-640x360.jpg");
   background-size: cover !important;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 #pic6 {
-  background-image: url("https://dailybruin.com/images/2017/02/zootopia1.jpg");
+  background-image: url("https://dailybruin.com/images/2017/02/web.ae_.zootopia.Courtesy-640x539.jpg");
   background-size: cover !important;
 }
 
@@ -119,7 +119,7 @@ body {
 }
 
 #pic9 {
-  background-image: url("https://dailybruin.com/images/2017/02/femme.jpg");
+  background-image: url("https://dailybruin.com/images/2017/02/web.ae_.LaFemme.SH_.PicA_-640x425.jpg");
   background-size: cover !important;
 }
 
@@ -257,7 +257,7 @@ footer {
   color: white;
   text-align: center;
   font-family: "Raleway", serif;
-  font-size: 1vw;
+  font-size: .75vw;
 }
 
 #smallscreenselect {
